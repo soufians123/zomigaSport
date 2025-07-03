@@ -1,0 +1,88 @@
+import type { Channel } from '@/types';
+
+export const initialChannels: Channel[] = [
+  {
+    id: 1,
+    name: 'beIN 1',
+    time: 'بث مباشر',
+    streamUrl: 'https://hls.avang.live/hls/stream.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 2,
+    name: 'beIN 2',
+    time: 'بث مباشر',
+    streamUrl: 'https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 3,
+    name: 'beIN 3',
+    time: 'بث مباشر',
+    streamUrl: 'https://moctobpltc-i.akamaihd.net/hls/live/571329/toc/master.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 4,
+    name: 'beIN 4',
+    time: 'بث مباشر',
+    streamUrl: 'https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 5,
+    name: 'beIN 5',
+    time: 'بث مباشر',
+    streamUrl: 'https://playertest.longtailvideo.com/adaptive/wowzaid3/playlist.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 6,
+    name: 'beIN 6',
+    time: 'بث مباشر',
+    streamUrl: 'https://assets.afcdn.com/video49/20210722/v_645516.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+   {
+    id: 7,
+    name: 'beIN 7',
+    time: 'بث مباشر',
+    streamUrl: 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 8,
+    name: 'beIN 8',
+    time: 'بث مباشر',
+    streamUrl: 'https://hls.avang.live/hls/stream.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+    {
+    id: 9,
+    name: 'beIN 9',
+    time: 'بث مباشر',
+    streamUrl: 'https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 10,
+    name: 'beIN 10',
+    time: 'بث مباشر',
+    streamUrl: 'https://moctobpltc-i.akamaihd.net/hls/live/571329/toc/master.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 11,
+    name: 'beIN 11',
+    time: 'بث مباشر',
+    streamUrl: 'https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+  {
+    id: 12,
+    name: 'beIN 12',
+    time: 'بث مباشر',
+    streamUrl: 'https://playertest.longtailvideo.com/adaptive/wowzaid3/playlist.m3u8',
+    thumbnailUrl: 'https://i.postimg.cc/fytTP2cP/bein.png',
+  },
+];
