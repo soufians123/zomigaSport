@@ -102,7 +102,7 @@ const ColorPicker = ({ name, label, value, onChange }: { name: keyof ThemeSettin
 export default function ManageThemePage() {
   const [settings, setSettings] = useState<ThemeSettings>(initialThemeSettings);
   const [isMounted, setIsMounted] = useState(false);
-  const [activePreset, setActivePreset] = useState("نيون");
+  const [activePreset, setActivePreset] = useState("احترافي");
 
   useEffect(() => {
     setSettings(getThemeSettings());
@@ -122,7 +122,7 @@ export default function ManageThemePage() {
   const handleReset = () => {
     const newSettings = resetThemeSettings();
     applySettings(newSettings);
-    setActivePreset("نيون");
+    setActivePreset("احترافي");
   };
   
   const handlePresetChange = (presetName: string) => {
@@ -341,7 +341,7 @@ export default function ManageThemePage() {
               <CardHeader>
                   <CardTitle>المظهر العام</CardTitle>
                   <CardDescription>تحكم في استدارة الحواف والعناصر الأخرى.</CardDescription>
-              </Header>
+              </CardHeader>
               <CardContent className="pt-4">
                     <div className="grid gap-4">
                       <div className="flex justify-between">
